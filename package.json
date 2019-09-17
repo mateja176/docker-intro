@@ -1,0 +1,29 @@
+{
+  "name": "docker-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateja176/docker-intro.git"
+  },
+  "keywords": [],
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mateja176)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateja176/docker-intro/issues"
+  },
+  "homepage": "https://github.com/mateja176/docker-intro#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
